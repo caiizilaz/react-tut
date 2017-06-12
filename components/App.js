@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
+import TextInput from './TextInput';
 
-export default class App extends Component {
+class App extends Component {
+
     render() {
-        return <div>In App Component Now</div>
+        return (
+            <div className="app">
+                <h1>In App Component Nows</h1>
+                <TextInput />
+            </div>
+        );
     }
 }
+
+export default App;

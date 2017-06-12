@@ -1,0 +1,13 @@
+import React, { Component } from 'react';
+
+class TextDisplay extends Component {
+    render() {
+        return (
+            <div>
+                <span>Display From Parent : {this.props.text}</span>
+            </div>
+        );
+    }
+}
+
+export default TextDisplay;
